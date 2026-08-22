@@ -31,7 +31,7 @@ next_action: human approval
 
 This makes approvals, execution evidence, failure, and rollback visible.
 
-## C — Knowledge Articles
+## C — Knowledge Articles / KBM / KB
 
 ```text
 KB-001
@@ -42,5 +42,10 @@ open_questions: 1
 next_action: review source link
 ```
 
-This makes freshness, provenance, and review needs visible to humans and agents.
+This makes freshness, provenance, and review needs visible to humans and
+scripts. An AI agent may consume the resulting context, but no AI agent is
+required to run the tracking process.
 
+KBM is the private-origin name for the knowledge layer. In this public project,
+KBM is generalized as **KB**: an Obsidian vault, MkDocs site, Markdown/TOML
+corpus, or another knowledge base.

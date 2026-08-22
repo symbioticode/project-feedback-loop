@@ -1,7 +1,7 @@
 # Project Feedback Loop
 
-How to keep a shared, useful context between humans, local AI agents, and an
-orchestrating AI without rebuilding the situation at every session.
+How to keep a shared, useful context between humans, local files, scripts, and
+optional AI consumers without rebuilding the situation at every session.
 
 ## The problem
 
@@ -18,6 +18,11 @@ context, and the dashboard used by a small team:
 
 This repository shows how small procedures create value first. A feedback loop
 appears only after their outputs become useful inputs to one another.
+
+The reference loop does **not** require an AI agent. It runs with deterministic
+Python scripts that read declared sources, produce derived views, and record
+their outputs. An AI agent may consume the generated context later, but it is
+not part of the minimum mechanism.
 
 ## Public vocabulary
 
@@ -48,8 +53,9 @@ The same tracked-unit model applies to:
 1. **Projects** — active, paused, archived work with priorities and pending items.
 2. **Change Tickets** — proposed, approved, executing, successful, failed, or
    rolled-back changes with evidence and human gates.
-3. **Knowledge Articles** — draft, active, superseded, archived, or void
-   articles with provenance, freshness, and open questions.
+3. **Knowledge Articles / KBM** — draft, active, superseded, archived, or void
+   articles with provenance, freshness, and open questions. KBM is used here as
+   a generic **KB (knowledge base)** layer, not as a required product.
 
 See [`docs/scenarios.md`](docs/scenarios.md), [`docs/architecture.md`](docs/architecture.md), and [`examples/`](examples/).
 
