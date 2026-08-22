@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 generated/
 .venv/
-
+# Generated KB tags index
+tags-kb
