@@ -51,12 +51,13 @@ The same tracked-unit model applies to:
 3. **Knowledge Articles** — draft, active, superseded, archived, or void
    articles with provenance, freshness, and open questions.
 
-See [`docs/scenarios.md`](docs/scenarios.md) and [`examples/`](examples/).
+See [`docs/scenarios.md`](docs/scenarios.md), [`docs/architecture.md`](docs/architecture.md), and [`examples/`](examples/).
 
 ## Foundations
 
 The approach is informed by distributed cognition, organizational knowledge
-creation, and provenance. See [`docs/foundations.md`](docs/foundations.md).
+creation, and provenance. See [`docs/foundations.md`](docs/foundations.md) and
+[`docs/provenance.md`](docs/provenance.md).
 
 ## Getting started
 
@@ -82,4 +83,3 @@ tests, and installation notes are welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.
 An observation is a signal, not automatically a truth. A dashboard is a derived
 view, not an authority. Provenance makes a result inspectable; it does not make
 the source correct. Human review remains necessary for ambiguous states.
-
